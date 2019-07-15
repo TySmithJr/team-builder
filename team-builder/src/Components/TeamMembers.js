@@ -9,4 +9,4 @@ const TeamMembers = (props) => {
     
     )
 
-export default TeamMembers
+export default TeamMembers 

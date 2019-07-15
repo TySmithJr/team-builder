@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import TeamData from "././TeamData"
+import TeamData from "././TeamData";
+import TeamMembers from "./Components/TeamMembers";
 
 function App() {
 
