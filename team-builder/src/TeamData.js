@@ -1,33 +1,33 @@
 export const TeamData = [
 
 
-    {first_name: "LeBron",
-    last_name: "James",
-    postion: "Small-forward",}
+    {name: "LeBron James",
+     email: "LJ23@gmail.com",
+    position: "Founder",}
 
     ,
 
-   {first_name: "Anthony",
-    last_name: "Davis",
-    postion: "Power-forward",}
+   {name: "Anthony Davis",
+    email: "AD3@gmail.com",
+    position: "CEO",}
 
     ,
 
-    {first_name: "DeMarcus",
-    last_name: "Cousins",
-    postion: "Center",}
+    {name: "DeMarcus Cousins",
+     email: "DC15@gamil.com",
+    position: "CTO",}
 
     ,
     
-    {first_name: "Danny",
-    last_name: "Green",
-    postion: "Shooting-gaurd",}
+    {name: "Danny Green",
+    email: "DG22@gmail.com",
+    position: "Software Engineer",}
 
     ,
 
-    {first_name: "Avery",
-    last_name: "Bradley",
-    postion: "Point-gaurd"}
+    {name: "Avery Bradley",
+    email: "AB5@gmail.com",
+    position: "Data Scientist"}
 
 ]
 

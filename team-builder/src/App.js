@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import './App.css';
-import TeamData from "././TeamData";
-import TeamMembers from "./Components/TeamMembers";
+import { TeamData } from "./TeamData";
+import ListOfPlayers from "./Components/ListOfPlayers";
+// import TeamMembers from "./Components/TeamMembers";
 
 function App() {
-
-  const [ teamMember, setTeamMember] = useStae({})
+  
+  const [members, SetMembers] = useState(TeamData)
+  
 
   return (
     <div className="App">
-      <TeamMembers />
+      <ListOfPlayers  members={members}/>
+      
     </div>
   );
 }
