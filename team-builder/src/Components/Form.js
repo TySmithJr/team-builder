@@ -14,14 +14,17 @@ function Form() {
                 <input
                 placeholder="name"
                 name= "name"
+                onChange={changeHandler}
                 />
                 <input
                 placeholder="email"
                 name= "email"
+                onChange={changeHandler}
                 />
                 <input
                 placeholder="position"
                 name= "position"
+                onChange={changeHandler}
                 />
             </form>
         </div>
